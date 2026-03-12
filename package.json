@@ -1,0 +1,19 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for MessenjrAli password reset and account linking",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
