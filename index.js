@@ -5,7 +5,7 @@ const express = require('express');
 const axios = require('axios');
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
-const BACKEND_URL = process.env.BACKEND_URL || 'https://backend-production-6de74.up.railway.app';
+const BACKEND_URL = process.env.BACKEND_URL || 'https://backend-production-ad05.up.railway.app';
 const BOT_CONTROL_TOKEN = process.env.BOT_CONTROL_TOKEN || '';
 const BOT_LINK_TOKEN = process.env.BOT_LINK_TOKEN || '';
 // Backend BotModel token (Authorization: Bot <token> uchun)
